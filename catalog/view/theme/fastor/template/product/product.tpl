@@ -235,7 +235,7 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/new_ele
 			        <span class="price-new"><span itemprop="price" id="price-special"><?php echo $special; ?></span></span> <span class="price-old" id="price-old"><?php echo $price; ?></span>
 			        <?php } ?>
 			        <br />
-			        <?php if ($tax) { ?>
+			        <?php /*if ($tax) { ?>
 			        <span class="price-tax"><?php echo $text_tax; ?> <span id="price-tax"><?php echo $tax; ?></span></span><br />
 			        <?php } ?>
 			        <?php if ($points) { ?>
@@ -248,7 +248,7 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/new_ele
 			          <?php echo $discount['quantity']; ?><?php echo $text_discount; ?><?php echo $discount['price']; ?><br />
 			          <?php } ?>
 			        </div>
-			        <?php } ?>
+			        <?php }*/ ?>
 			      </div>
 			      <?php } ?>
 			     </div>
@@ -260,7 +260,7 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/new_ele
 			        <?php foreach ($product_options_center as $module) { echo $module; } ?>
 			        
 			        <?php if ($options) { ?>
-			        <div class="options2">
+			        <!-- div class="options2">
      			        <h2><?php echo $text_option; ?></h2>
      			        <?php foreach ($options as $option) { ?>
      			        <?php if ($option['type'] == 'select') { ?>
@@ -417,7 +417,7 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/new_ele
      			       	</div>
      			       	<?php } ?>
      			        <?php } ?>
-     			   </div>
+     			   </div -->
 			        <?php } ?>
 			      </div>
 			      <?php } ?>

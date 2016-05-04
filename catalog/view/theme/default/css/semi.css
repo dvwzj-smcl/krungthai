@@ -1,0 +1,17 @@
+#top .megamenu a > span > strong,
+#top .container,
+#search_query,
+.box .box-heading,
+.product,
+.footer,
+.footer h6,
+.tooltip,
+.breadcrumb .container h1,
+.breadcrumb a,
+h3,
+.center-column h3,
+#content #tabs a,
+#content #tab-description,
+.main-content {
+    font-family: Kanit!important;
+}
