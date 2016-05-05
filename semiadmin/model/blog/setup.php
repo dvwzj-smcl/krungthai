@@ -429,18 +429,18 @@ class Modelblogsetup extends Model
             
 			$queries[] = "
                     INSERT INTO `" . DB_PREFIX . "blog_article_gallery` (`article_item_id`, `article_id`, `path`, `width`, `height`, `type`, `output`, `sort_order`) VALUES
-                    (2746, 27, 'catalog/blog/8.jpg', 1272, 720, 'IMG', '<img src=\"http://localhost:8888/OpenCart/fastor/2.0.3/image/cache/catalog/blog/8-1272x720.jpg\" alt=\"media\" />', 1),
-                    (2743, 20, 'catalog/blog/14.jpg', 1200, 600, 'IMG', '<img src=\"http://localhost:8888/OpenCart/fastor/2.0.3/image/cache/catalog/blog/14-1200x600.jpg\" alt=\"media\" />', 1),
-                    (2738, 18, 'catalog/blog/slider-1.jpg', 1200, 600, 'IMG', '<img src=\"http://localhost:8888/OpenCart/fastor/2.0.3/image/cache/catalog/blog/slider-1-1200x600.jpg\" alt=\"media\" />', 2),
-                    (2737, 18, 'catalog/blog/slider-2.jpg', 1200, 600, 'IMG', '<img src=\"http://localhost:8888/OpenCart/fastor/2.0.3/image/cache/catalog/blog/slider-2-1200x600.jpg\" alt=\"media\" />', 1),
-                    (2741, 68, 'catalog/blog/blog-post-image.jpg', 1200, 908, 'IMG', '<img src=\"http://localhost:8888/OpenCart/fastor/2.0.3/image/cache/catalog/blog/blog-post-image-1200x908.jpg\" alt=\"media\" />', 1),
-                    (2747, 69, 'catalog/blog/8.jpg', 1272, 720, 'IMG', '<img src=\"http://localhost:8888/OpenCart/fastor/2.0.3/image/cache/catalog/blog/8-1272x720.jpg\" alt=\"media\" />', 1),
+                    (2746, 27, 'catalog/blog/8.jpg', 1272, 720, 'IMG', '<img src=\"http://www.semsame.com:8888/OpenCart/fastor/2.0.3/image/cache/catalog/blog/8-1272x720.jpg\" alt=\"media\" />', 1),
+                    (2743, 20, 'catalog/blog/14.jpg', 1200, 600, 'IMG', '<img src=\"http://www.semsame.com:8888/OpenCart/fastor/2.0.3/image/cache/catalog/blog/14-1200x600.jpg\" alt=\"media\" />', 1),
+                    (2738, 18, 'catalog/blog/slider-1.jpg', 1200, 600, 'IMG', '<img src=\"http://www.semsame.com:8888/OpenCart/fastor/2.0.3/image/cache/catalog/blog/slider-1-1200x600.jpg\" alt=\"media\" />', 2),
+                    (2737, 18, 'catalog/blog/slider-2.jpg', 1200, 600, 'IMG', '<img src=\"http://www.semsame.com:8888/OpenCart/fastor/2.0.3/image/cache/catalog/blog/slider-2-1200x600.jpg\" alt=\"media\" />', 1),
+                    (2741, 68, 'catalog/blog/blog-post-image.jpg', 1200, 908, 'IMG', '<img src=\"http://www.semsame.com:8888/OpenCart/fastor/2.0.3/image/cache/catalog/blog/blog-post-image-1200x908.jpg\" alt=\"media\" />', 1),
+                    (2747, 69, 'catalog/blog/8.jpg', 1272, 720, 'IMG', '<img src=\"http://www.semsame.com:8888/OpenCart/fastor/2.0.3/image/cache/catalog/blog/8-1272x720.jpg\" alt=\"media\" />', 1),
                     (2744, 65, 'https://w.soundcloud.com/player/?visual=true&amp;url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F140783505&amp;show_artwork=true', 1200, 140, 'SOUNDCLOUD', '<iframe width=\"1200\" height=\"140\" scrolling=\"no\" frameborder=\"no\" src=\"https://w.soundcloud.com/player/?visual=true&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F140783505&show_artwork=true&amp=\"></iframe>', 3),
                     (2736, 25, 'https://www.youtube.com/watch?v=KU2xnNLalyk', 1200, 400, 'YOUTUBE', '<iframe id=\"ytplayer\" type=\"text/html\" width=\"1200\" height=\"400\"\r\n                                src=\"https://www.youtube.com/embed/KU2xnNLalyk?rel=0&showinfo=0&color=white&iv_load_policy=3\"\r\n                                frameborder=\"0\" allowfullscreen></iframe> ', 1),
-                    (2728, 66, 'catalog/blog/10.jpg', 1200, 1009, 'IMG', '<img src=\"http://localhost:8888/OpenCart/fastor/2.0.3/image/cache/catalog/blog/10-1200x1009.jpg\" alt=\"media\" />', 1),
-                    (2729, 67, 'catalog/blog/11.jpg', 1200, 1000, 'IMG', '<img src=\"http://localhost:8888/OpenCart/fastor/2.0.3/image/cache/catalog/blog/11-1200x1000.jpg\" alt=\"media\" />', 1),
-                    (2732, 70, 'catalog/blog/14.jpg', 1200, 600, 'IMG', '<img src=\"http://localhost:8888/OpenCart/fastor/2.0.3/image/cache/catalog/blog/14-1200x600.jpg\" alt=\"media\" />', 1),
-                    (2742, 64, 'catalog/blog/slider-1.jpg', 1200, 600, 'IMG', '<img src=\"http://localhost:8888/OpenCart/fastor/2.0.3/image/cache/catalog/blog/slider-1-1200x600.jpg\" alt=\"media\" />', 1)
+                    (2728, 66, 'catalog/blog/10.jpg', 1200, 1009, 'IMG', '<img src=\"http://www.semsame.com:8888/OpenCart/fastor/2.0.3/image/cache/catalog/blog/10-1200x1009.jpg\" alt=\"media\" />', 1),
+                    (2729, 67, 'catalog/blog/11.jpg', 1200, 1000, 'IMG', '<img src=\"http://www.semsame.com:8888/OpenCart/fastor/2.0.3/image/cache/catalog/blog/11-1200x1000.jpg\" alt=\"media\" />', 1),
+                    (2732, 70, 'catalog/blog/14.jpg', 1200, 600, 'IMG', '<img src=\"http://www.semsame.com:8888/OpenCart/fastor/2.0.3/image/cache/catalog/blog/14-1200x600.jpg\" alt=\"media\" />', 1),
+                    (2742, 64, 'catalog/blog/slider-1.jpg', 1200, 600, 'IMG', '<img src=\"http://www.semsame.com:8888/OpenCart/fastor/2.0.3/image/cache/catalog/blog/slider-1-1200x600.jpg\" alt=\"media\" />', 1)
             ";
                 
 			$queries[] = "
